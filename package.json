@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "A Tailwind CSS setup",
+  "main": "script.js",
+  "scripts": {
+    "dev": "concurrently \"npx tailwindcss -i ./style.css -o ./output.css --watch\" \"python3 -m http.server\"",
+    "build": "npx tailwindcss -i ./style.css -o ./output.css --minify",
+    "serve": "python3 -m http.server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.0"
+  }
+}

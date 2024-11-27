@@ -1,0 +1,27 @@
+<header class="bg-offWhite text-black">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+        <!-- Logo -->
+        <a href="/" class="text-xl font-bold">Felix Safieh</a>
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+        <!-- Navigation Links -->
+        <nav id="menu" class="hidden md:flex space-x-4">
+            <a href="/index.html" class="hover:bg-lightLapis">Home</a>
+            <a href="/Assets/resume.pdf" class="hover:bg-lightLapis" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="/projects.html" class="hover:bg-lightLapis">Projects</a>
+            <a href="/contact" class="hover:bg-lightLapis">Contact</a>
+        </nav>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-offWhite">
+        <nav class="flex flex-col space-y-2 py-2 px-4">
+            <a href="/index.html" class="hover:bg-lightLapis">Home</a>
+            <a href="/Assets/resume.pdf" class="hover:bg-lightLapis" target="_blank" rel="noopener noreferrer">Resume</a>
+            <a href="/projects" class="hover:bg-lightLapis">Projects</a>
+            <a href="/contact" class="hover:bg-lightLapis">Contact</a>
+        </nav>
+    </div>
+</header>

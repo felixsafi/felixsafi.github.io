@@ -1,6 +1,19 @@
-:root {
-    --mustard: #e09f3e;
-    --lightYellow: #fff3b0;
-    --lightRed: #9e2a2b;
-    --darkRed: #540b0e;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#mobile-menu {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.custom-class {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
